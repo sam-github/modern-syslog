@@ -1,3 +1,17 @@
+2024-05-02, Version 1.2.1
+=========================
+
+ * ci: add GHA workflows, test LTS versions of node on ubuntu & macOS #45
+
+ * package.json: populate files, limit what get published to NPM
+
+ * deps(all): bump to latest versions
+
+ * chore: add tap output dirs to .gitignore
+
+ * ci: run minimal eslint on PRs
+
+
 2019-05-06, Version 1.2.0
 =========================
 

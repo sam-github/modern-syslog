@@ -3,11 +3,13 @@
   "version": "1.2.0",
   "description": "modern syslog - streaming, async, uses nan",
   "main": "index.js",
+  "files": [ "binding.gyp", "CHANGES.md", "core.cc", "Makefile" ],
   "os": [
     "!win32"
   ],
   "scripts": {
-    "test": "tap test/test-*.js"
+    "lint": "npx eslint@8 *.js",
+    "test": "tap --allow-incomplete-coverage test/test-*.js"
   },
   "author": "Sam Roberts <rsam@ca.ibm.com>",
   "homepage": "http://github.com/strongloop/modern-syslog",
@@ -20,11 +22,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "debug": "^4.1.1",
-    "tap": "^13.1.2"
+    "debug": "^4.3.4",
+    "tap": "^18.7.2"
   },
   "dependencies": {
-    "nan": "^2.13.2"
+    "nan": "^2.19.0"
   },
   "tags": [
     "log",

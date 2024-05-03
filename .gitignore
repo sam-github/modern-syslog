@@ -1,2 +1,5 @@
 build
 node_modules
+.nyc_output
+.tap
+package-lock.json
